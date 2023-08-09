@@ -1,0 +1,82 @@
+.hero{
+    background-image: url("gallery/hero.jpeg");
+    opacity: 0.9;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+
+.hero-content{
+    position: absolute;
+    right: 30px;
+    bottom: 40px;
+    width: 600px;
+}
+
+.hero-content h1{
+    color: #252525;
+    font-size: 60px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.hero-content h1 span{
+    color: rgb(118, 69, 39);
+    font-size: 65px;
+    font-weight: bold;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+
+    /* font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; */
+    /* font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace; */
+}
+
+.hero-content p{
+    color: rgb(118, 69, 39);
+    padding: 18px;
+}
+
+.hero-content button{
+    margin: 20px;
+    width: 180px;
+    padding: 16px 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: #252525;
+    color: whitesmoke;
+    border: 0;
+    grid-area: button;
+    font-family: Poppins;
+}
+
+.hero-content button:hover{
+    background-color:  rgb(255, 102, 0);
+}
+
+.testimonial h1{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 45px;
+    line-height: 80px;
+    color: rgb(255, 102, 0);
+    text-align: start;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.testimonial{
+    /* margin-left: 60px;
+    margin-bottom: 30px; */
+    margin: 60px;
+}
+
+.testimonial h3{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 25px;
+    line-height: 80px;
+    color: rgb(255, 102, 0);
+    text-align: start;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+}

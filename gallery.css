@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.grid_gallery {
+    margin: 20px 60px;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 350px 350px 350px;
+    grid-gap: 20px;
+    grid-template-areas:
+        "img1 img2 img3"
+        "img4 img5 img6"
+        "img7 img8 img9";
+    justify-content: center;
+    grid-area: grid_gallery;
+}
+
+.item1 {
+    grid-area: img1;
+    opacity: .8;
+    position: relative;
+}
+
+.item2 {
+    grid-area: img2;
+    opacity: .8;
+    position: relative;
+}
+
+.item3 {
+    grid-area: img3;
+    opacity: .8;
+    position: relative;
+}
+
+.item4 {
+    grid-area: img4;
+    opacity: .8;
+    position: relative;
+}
+
+.item5 {
+    grid-area: img5;
+    opacity: .8;
+    position: relative;
+}
+
+.item6 {
+    grid-area: img6;
+    opacity: .8;
+    position: relative;
+}
+
+.item7 {
+    grid-area: img7;
+    opacity: .8;
+    position: relative;
+}
+
+.item8 {
+    grid-area: img8;
+    opacity: .8;
+    position: relative;
+}
+
+.item9 {
+    grid-area: img9;
+    opacity: .8;
+    position: relative;
+}
+
+.gallery h1 {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 45px;
+    line-height: 80px;
+    color: rgb(255, 102, 0);
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    grid-area: head;
+}
+
+.gallery p {
+    text-align: center;
+    max-width: 1112px;
+    margin-left: 50px;
+    padding-bottom: 20px;
+    grid-area: para;
+}
+
+.gallery button{
+    margin-left: 530px;
+    width: 140px;
+    padding:10px 25px;
+    font-size: 18px;
+    background-color: #252525;
+    color: whitesmoke;
+    border: 0;
+    grid-area: button;
+    font-family: Poppins;
+}
+
+.gallery{
+    margin-top: 0;
+    margin: 20px 60px;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "head"
+    "para"
+    "grid_gallery"
+    "button";
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.gallery button:hover{
+    background-color:  rgb(220, 99, 19);
+    color: white;
+}
+
+.layer{
+    background-image: transparent;
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.layer:hover{
+    background-image: url("gallery/search1.jpeg");
+    opacity: 0.8;
+    
+}

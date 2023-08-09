@@ -1,0 +1,102 @@
+.services {
+    text-align: center;
+    margin: 0;
+    background-image: url("gallery/ext14.jpeg");
+    /* background-size: cover;
+    background-position: center; */
+    /* padding: 40px; */
+    background-attachment: fixed;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: auto;
+    color: rgb(254, 255, 254);
+}
+
+/* .services img {
+    width: 100%;
+    opacity: 0.75;
+} */
+
+.services img {
+    opacity: 0.9;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+  }
+
+.service1,
+.service2,
+.service3 {
+    margin: 15px;
+    padding: 10px;
+    display: inline-block;
+    background-color: rgb(252, 100, 45);
+    width: 28%;
+    color: whitesmoke;
+    margin-bottom: 100px;
+}
+
+.service1 h2,
+.service2 h2,
+.service3 h2 {
+    padding: 10px;
+}
+
+.service1 p,
+.service2 p,
+.service3 p {
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.service1 i,
+.service2 i,
+.service3 i {
+    padding: 20px;
+}
+
+.services h1 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 45px;
+    /* color: rgb(255, 102, 0); */
+    line-height: 80px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    /* margin-top: 20px; */
+    text-align: center;
+    font-weight: bold;
+}
+
+.service1:hover,
+.service2:hover,
+.service3:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+/* .service1 button{
+    margin: 40px;
+    width: 140px;
+    height: 50px;
+    padding:10px 25px;
+    font-size: 18px;
+    background-color: #252525;
+    color: whitesmoke;
+    border: 0;
+    font-family: Poppins;
+    visibility: hidden;
+}
+
+.service1 button:hover{
+    margin: 40px;
+    padding:10px 25px;
+    font-size: 18px;
+    background-color: #252525;
+    color: whitesmoke;
+    border: 0;
+    font-family: Poppins;
+    visibility: visible;
+} */
